@@ -1,0 +1,449 @@
+/*
+Content-Type: multipart/related; boundary="zamena"
+
+--zamena
+Content-Location:gradient
+Content-Transfer-Encoding:base64
+
+iVBORw0KGgoAAAANSUhEUgAAAAgAAAJYCAYAAABfHqdVAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAcRJREFUeNrsnNENwzAIRKHqPP3oql2xe9AN6kiB484m35HqEvzugDjP1/vztT/XwxYX4IZnmMXfG8z7F2nLRS5WCVmDQKBSfsJtFYdgz+qMOPgGScsQh4yUI/ib9Sl3KVDFjAKEGoBiiowiUN5lwuRsnGjOBwlRuw+QlN3twb55GexiAoICYtX05WC59QBPM2N3ewKjDmD1JRRXy0E9iiVIKwFSzNN0AQ8jwMkcDHanPYM0M2gWoIzC2EUv3nqQarG8hMlhVPmzGEal7Sx+vWDpDYY8gnIIQy8HAMIALKsKYfj7DxwmhwMg3WX1UnEGINdD7QQ52V53M/BBolFDoRcEfAC0WSj0QoEPFFM5Sxj0eAwfcvgg0DQbPgwfhg9d9eY9LycxptmHD/T9B4p6MxTqTdui3gyCelOh/wDwcgOQzIbVvbr7kAkIwpHGDGFBjhQz5z1iRHLfssYxQ9h+OShHkMSQZRiFK6sJrPtATKhRQyGLoeDMTSDlEMIa/YeGNA6RSVQHkOMV/IeOSUhb/tZf7KD+Eh5G5kRwv9ESeNn1EDnY5ii9wPGrXb7/4O2Pm+JzH37CF2ZUfJRvECiCrF7e8BNgAA5nGRISQQlXAAAAAElFTkSuQmCC
+
+--zamena--
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/    v2.0b2  */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+/* HTML5 display-role reset for older browsers */ /**/
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section	{
+	display: block;
+}
+/*END CSS-RESET*/ /**/
+
+/* Global (begin) */ /**/
+html{
+	background:#00adef;
+}
+body {
+	margin:auto;
+	width: 100%;
+	height: 100%;
+	max-width:1440px;
+	min-width:850px;
+	background: #00adef; /* Old browsers */
+	color: #fff;
+	font-size: 62.5%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.gradient{
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAJYCAYAAABfHqdVAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAcRJREFUeNrsnNENwzAIRKHqPP3oql2xe9AN6kiB484m35HqEvzugDjP1/vztT/XwxYX4IZnmMXfG8z7F2nLRS5WCVmDQKBSfsJtFYdgz+qMOPgGScsQh4yUI/ib9Sl3KVDFjAKEGoBiiowiUN5lwuRsnGjOBwlRuw+QlN3twb55GexiAoICYtX05WC59QBPM2N3ewKjDmD1JRRXy0E9iiVIKwFSzNN0AQ8jwMkcDHanPYM0M2gWoIzC2EUv3nqQarG8hMlhVPmzGEal7Sx+vWDpDYY8gnIIQy8HAMIALKsKYfj7DxwmhwMg3WX1UnEGINdD7QQ52V53M/BBolFDoRcEfAC0WSj0QoEPFFM5Sxj0eAwfcvgg0DQbPgwfhg9d9eY9LycxptmHD/T9B4p6MxTqTdui3gyCelOh/wDwcgOQzIbVvbr7kAkIwpHGDGFBjhQz5z1iRHLfssYxQ9h+OShHkMSQZRiFK6sJrPtATKhRQyGLoeDMTSDlEMIa/YeGNA6RSVQHkOMV/IeOSUhb/tZf7KD+Eh5G5kRwv9ESeNn1EDnY5ii9wPGrXb7/4O2Pm+JzH37CF2ZUfJRvECiCrF7e8BNgAA5nGRISQQlXAAAAAElFTkSuQmCC);
+	background-image: url(mhtml:http://elkonina.ru/works/leto/css/leto.ie.css!gradient); /* IE < 8 */
+	background-repeat:repeat-x;
+	
+}
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: "OfficinaSansMediumC";
+	src: url("../ttf/officinasansmediumc-webfont.eot");
+}
+
+h1,h2,h3 {
+	font-family: "OfficinaSansMediumC", Arial, Helvetica, sans-serif;
+}
+
+/* Global (end) */ /**/
+
+/* Wrapper's (begin) */ /**/
+.body_wrap-in { 
+	position: relative;
+	width: 100%;
+	min-height: 100%;
+}
+	.page_wrap-out {
+		position: relative;
+		z-index:1;
+		margin:auto;
+		width: 29%;
+		min-height: 100%;
+	}
+		.page { 
+			position: relative;
+			padding-bottom: 300px;
+			width: 200%;
+			min-height: 100%;
+		}
+/* Wrapper's (end) */ /**/
+
+/* Header (begin) */ /**/
+.head {
+	position:relative;
+	left:-50%;
+	margin-bottom: 43px;
+	padding-top: 66px;
+	width:150%;
+	height:100px;
+}
+	.logo {
+		float:left;
+		overflow:hidden;
+		width:209px;
+		height:60px;
+		font-size: 2.4em;
+	}
+		.logo a {
+			padding-top:38px;
+			background:url("../i/neosurf_hover.png") 0 0 no-repeat;
+			color: #fff;
+			text-decoration: none;
+		}
+		*+html .logo a{
+			padding-top:0;
+		}
+			.logo a:hover img{
+				visibility: hidden;
+			}
+.menu {
+	box-sizing:border-box;
+	margin-top:12px;
+	margin-left:33%;
+}
+	.menu ul{
+		display:table;
+		width:100%;
+	}
+	.menu li {
+		display:table-cell;
+		text-align:center;
+	}
+	*+html .menu ul {
+		display: block;
+		width:auto;
+	}
+	*+html .menu li {
+		display: inline;
+	}
+		.menu a {
+			display: inline-block;
+			padding: 7px;
+			border: 1px solid transparent;
+			border-radius: 8px 0 8px 0;
+			text-decoration: none;
+			white-space: nowrap;
+			font: 1.6em "OfficinaSansMediumC", Arial, sans-serif;
+			behavior: url(pie.php);
+		}
+		.menu a:link {
+			color: #fff;
+		}
+		.menu a:visited {
+			color: #fff;
+		}
+		.menu a:link:hover {
+			border: 1px solid #fff;
+			color: #fff;
+		}
+		.menu a:visited:hover {
+			border: 1px solid #fff;
+			color: #fff;
+		}
+		.menu a:link:active {
+			border: 1px dotted #fff;
+			color: #fff;
+		}
+		.menu a:visited:active {
+			border: 1px solid #fff;
+			color: #ccc;
+		}
+/* Header (end) */ /**/
+
+/* Main layout (begin) */ /**/
+.main {
+	position: relative;
+	margin: 0 0 50px 25%;
+	width: 66%;
+	min-height:240px;
+}
+	.main h2 {
+		padding: 0 0 2px 0;
+		font-weight: normal;
+		font-size: 2.4em;
+	}
+	.main p {
+		padding: 5px 0;
+		font-size: 1.2em;
+		line-height: 1.5em;
+	}
+	.main_link {
+		display: inline-block;
+		margin: 9px 0 19px;
+		padding: 7px;
+		border-radius: 9px 0 9px 0;
+		background-color: #009bdf;
+		color: #fff;
+		text-decoration: none;
+		font: 1.6em "OfficinaSansMediumC", Arial, sans-serif;
+		behavior: url(pie.php);
+	}
+		.main_link:hover{
+			padding:6px;
+			border:1px solid #fff;
+		}
+/* Main layout (end) */ /**/
+
+/* Sections layout (begin) */ /**/
+.section {
+	position: relative;
+	padding: 0 0 32px;
+	width: 50%;
+}
+.clearfix:after {
+	clear: both;
+	display: block;
+	visibility: hidden;
+	height: 0;
+	content: "\0020";
+}
+		.article {			
+			position: relative;
+			float: left;
+			box-sizing:border-box;
+			width: 100%;
+			padding-right: 7%;
+			margin-left: -100%;
+			margin-right:2%;
+		}
+		*+html .article{
+			width:91%;
+		}
+		.article-l {
+			left: 0;
+		}
+		.article-c {
+			left: 100%;
+		}
+		.article-r {
+			left: 200%;
+		}
+		.articles .article {
+			margin-top: -2px;
+		}
+			.section > h2 {
+				position: relative;
+				top: 0;
+				left: -100%;
+				padding-bottom: 14px;
+				white-space: nowrap;
+				font: 2.2em "OfficinaSansMediumC", Arial, Helvetica, sans-serif;
+			}
+			.section h3 {
+				margin: 0 0 4px;
+				font: 1.3em Arial, Helvetica, sans-serif;
+			}
+			.section p {
+				font-size: 1.1em;
+				line-height: 1.47em;
+			}
+			.section time {
+				font: 1.1em/1.6em Arial, Helvetica, sans-serif;
+			}
+			.section a {
+				color: #0b2e4d;
+			}
+				.section a:hover,
+				.section a:active {
+					color: #ffff99;
+				}
+				.other-headers {
+					position: absolute;
+					top: 7px;
+					left: -100%;
+					padding: 0 15px;
+					white-space: nowrap;
+				}
+				.news .other-headers {
+					margin-left: 150px;
+				}
+				.articles .other-headers {
+					margin-left: 120px;
+				}
+					.other-headers h2 {
+						display: inline;
+						padding: 0 15px;
+						border-left: 1px dotted #000;
+						white-space: nowrap;
+						font: 1.1em Arial, Helvetica, sans-serif, normal;
+					}
+					.other-headers li{
+						display:inline;
+					}
+						.rss a {
+							display: inline-block;
+							padding-left: 46px;
+							height: 14px;
+							background: url(../i/rss.png) 0 0 no-repeat;
+						}
+/* Sections layout (begin) */ /**/
+
+/* Footer (begin) */ /**/
+.foot_wrap-out {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index:1;
+	padding: 0 6.5%;
+	width: 87%;
+}
+	.medicines {
+		display: table;
+		margin-bottom: -28px;
+		width: 100%;
+		height: 115px;
+		border-radius: 0 40px 0 40px;
+		background-color: #009bdf;
+		behavior: url(pie.php);
+	}
+		.medicines ul {
+			display: table-row;
+		}
+			.medicines li {
+				display: table-cell;
+				width: 33%;
+				vertical-align:middle;
+				text-align: center;
+			}
+				*+html .medicines li {
+					display: inline;
+					zoom:1;
+				}
+				.medicines a {
+					padding:20px 10%;
+					border:1px dashed transparent;
+					border-radius: 0 20px 0 20px;
+					color: #fff;
+					font: 2.4em "OfficinaSansMediumC", Arial, sans-serif;
+					behavior: url(pie.php);
+				}
+				*+html .medicines a {
+					margin:25px 0;
+					padding:20px 10%;
+				}
+					.medicines a:hover{
+						border-color:#fff;
+					}
+						.medicines img {
+						    position: relative;
+						    margin-top: -33px;
+						}
+						*+html .medicines img {
+							vertical-align:middle;
+						}
+						.dokfarm img {
+						    top: 17px;
+						    left:0;
+						}
+						.suzacrin img {
+						    top: 15px;
+						    left: -2px;
+						}
+						.genesis img {
+						    top: 11px;
+						    left: -6px;
+						}
+
+.foot {
+	position: relative;
+	left: 0%;
+	overflow: hidden;
+	padding: 80px 0 60px;
+	width: 100%;
+	font: 1.1em/1.5em Arial, Helvetica, sans-serif;
+}
+	.foot-l {
+		float: left;
+		white-space: nowrap;
+	}
+		.foot-l ul {
+			position: relative;
+			left: -4%;
+			margin-top: 5px;
+			white-space: nowrap;
+		}
+			.foot-l li {
+				display: inline;
+				padding: 0 4%;
+				border-left: 1px #0b2e4d dotted;
+			}
+	.foot-r {
+		float:right;
+		width:31%;
+	}
+		.foot-r li {
+			margin-bottom: 5px;
+		}
+			.foot a:link {
+				color: #0b2e4d;
+			}
+			.foot a:hover {
+				color: #ffff99;
+			}
+/* Footer (end) */ /**/
+
+
+/*интерактивный элемент вверху экрана*/
+.consilium,
+.consilium:link { 
+	position: absolute;
+	top: 0;
+	right: 7.6%;
+	z-index: 1;
+	display: block;
+	padding: 14px 16px 7px;
+	border: 1px dashed #fff;
+	border-top: none;
+	border-radius: 0 0 8px 8px;
+	color: #fff;
+	text-decoration: none;
+	font: 1.6em "OfficinaSansMediumC", Arial, sans-serif;
+	behavior: url(pie.php);
+}
+		.consilium:visited {
+			color: #0ff;
+		}
+		.consilium:link:hover {
+			border: 1px solid #fff;
+			border-top: none;
+			color: #fff;
+		}
+
+.decor_child {
+	position:absolute;
+	top:78px;
+    left: 0;
+	padding:101px 195px 153px 30px;
+	background:url("../i/child_fon.png") 50% 0 no-repeat;
+}
+
+.decor_dove {
+	position:absolute;
+	top:250px;
+    right:0;
+	padding:99px 47px 34px 69px;
+	background:url("../i/dove_fon.png") 50% 0 no-repeat;
+}		
+
+.decor_ball {
+	position:absolute;
+	bottom: -3px;
+    left: 34.5%;
+	padding:5px 164px 80px 155px;
+	background:url("../i/ball_fon.png") 50% 0 no-repeat;
+}
